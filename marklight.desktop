@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=MarkLight
+Comment=A lightweight Markdown editor
+Exec=marklight
+Icon=marklight
+Terminal=false
+Type=Application
+Categories=Utility;TextEditor;
+MimeType=text/plain;text/markdown;text/x-markdown;
+Keywords=markdown;editor;light;

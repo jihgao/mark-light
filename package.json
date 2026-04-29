@@ -1,0 +1,16 @@
+{
+  "name": "marklight",
+  "version": "1.0.0",
+  "description": "A lightweight Markdown editor",
+  "scripts": {
+    "tauri": "tauri",
+    "dev": "cargo tauri dev",
+    "build": "cargo tauri build",
+    "build:mac": "cargo tauri build --target universal-apple-darwin",
+    "build:win": "cargo tauri build --target x86_64-pc-windows-msvc",
+    "build:linux": "cargo tauri build"
+  },
+  "keywords": ["markdown", "editor", "tauri"],
+  "author": "",
+  "license": "MIT"
+}

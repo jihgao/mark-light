@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="system">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MarkLight</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="editor-pane">
+      <div id="line-numbers"></div>
+      <textarea id="editor" spellcheck="false" placeholder="Start typing Markdown..."></textarea>
+    </div>
+    <div id="divider"></div>
+    <div id="preview-pane">
+      <div id="preview"></div>
+    </div>
+  </div>
+  <div id="drag-overlay"></div>
+  <div id="status-bar">
+    <span id="status-file">Untitled</span>
+    <span id="status-info">Ln 1, Col 1</span>
+    <span id="status-words">0 words</span>
+  </div>
+  <script src="marked.min.js"></script>
+  <script src="editor.js"></script>
+</body>
+</html>
