@@ -1,6 +1,6 @@
 [package]
 name = "marklight"
-version = "1.0.1"
+version = "1.0.0"
 description = "A lightweight Markdown editor"
 authors = ["you"]
 license = "MIT"
