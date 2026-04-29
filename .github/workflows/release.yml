@@ -57,9 +57,9 @@ jobs:
           curl -sL https://cdn.jsdelivr.net/npm/marked/marked.min.js -o dist/marked.min.js
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: 22
+          node-version: 24
 
       - name: Install Tauri CLI (npm)
         run: npm install --save-dev @tauri-apps/cli@2
