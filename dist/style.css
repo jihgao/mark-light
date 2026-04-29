@@ -129,7 +129,7 @@ body {
   color: var(--text-muted);
   font-family: "SF Mono", "Cascadia Code", "JetBrains Mono", "Fira Code", "Consolas", "Courier New", monospace;
   font-size: 13px;
-  line-height: 1.6;
+  line-height: 22.4px;
   overflow: hidden;
   user-select: none;
   border-right: 1px solid var(--border);
