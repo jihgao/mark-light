@@ -80,7 +80,7 @@ jobs:
             src-tauri/target/${{ matrix.target }}/release/bundle/appimage/*.AppImage
 
       - name: Upload macOS bundles
-        if: matrix.os == 'macos-latest'
+        if: matrix.os == 'macos-14'
         uses: softprops/action-gh-release@v3
         with:
           tag_name: ${{ github.ref_name }}
